@@ -38,9 +38,11 @@ export default function Navbar() {
       <div className="container mx-auto px-6 lg:px-12 flex justify-between items-center">
         {/* Logo */}
         <Link to="/" className="flex items-center gap-2 group">
-          <div className="w-8 h-8 rounded-lg bg-gradient-to-tr from-cyan to-green flex items-center justify-center text-navy font-bold text-lg shadow-lg group-hover:scale-105 transition-transform">
-            AB
-          </div>
+          <img 
+            src="/logo.webp" 
+            alt="AgentBharat Logo" 
+            className="h-10 w-10 rounded-lg shadow-lg group-hover:scale-105 transition-transform object-cover" 
+          />
           <span className="text-xl font-bold tracking-tight">AgentBharat</span>
         </Link>
 
