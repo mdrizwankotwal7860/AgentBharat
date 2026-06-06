@@ -37,12 +37,11 @@ export default function Navbar() {
       }`}
     >
       <div className="container mx-auto px-6 lg:px-12 flex justify-between items-center">
-        {/* Logo */}
         <Link to="/" className="flex items-center group">
           <img 
             src={logoImage} 
             alt="AgentBharat" 
-            className="h-10 md:h-12 w-auto object-contain group-hover:scale-105 transition-transform" 
+            className="h-16 md:h-20 w-auto object-contain group-hover:scale-105 transition-transform" 
           />
         </Link>
 
