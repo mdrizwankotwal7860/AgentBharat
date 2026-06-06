@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { FiMenu, FiX } from 'react-icons/fi';
 import Button from '../ui/Button';
+import logoImage from '../../assets/logo-wide.png';
 
 export default function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -39,7 +40,7 @@ export default function Navbar() {
         {/* Logo */}
         <Link to="/" className="flex items-center group">
           <img 
-            src="/logo-wide.png" 
+            src={logoImage} 
             alt="AgentBharat" 
             className="h-10 md:h-12 w-auto object-contain group-hover:scale-105 transition-transform" 
           />
